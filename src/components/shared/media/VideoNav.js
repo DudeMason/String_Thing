@@ -1,17 +1,16 @@
 import React from 'react'
 import { Menu } from 'semantic-ui-react'
-import {Link} from 'react-router-dom';
 
 const PhotoNav = () => (
   <>
     <Menu attached='top' tabular inverted stackable>
-      <Link to='/photos'>
+      <a href='/photos'>
         <Menu.Item
           icon='camera'
           name='Photos'
           active={false}
         />
-      </Link>
+      </a>
       <Menu.Item
         icon='video'
         name='Videos'

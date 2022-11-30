@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Route, Switch, Link} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import Home from './components/shared/Home';
 import Contact from './components/shared/Contact';
 import About from './components/shared/About';
@@ -23,20 +23,22 @@ const App = () => (
     </Switch>
     <div className='watermark'>
       <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
-        <a href='/' style={{color: 'white'}}><u>It's a String Thing</u></a>
+        <a href='/' style={{color: 'white'}}>
+          <u>It's a String Thing</u>
+        </a>
         <br/>
         <i style={{fontSize: 12}}>
-          <Link to='/about'>
-          <b style={{color: 'white'}}>-About-</b>
-          </Link>
-          <br/>
-          © 2020 Website Created by Mason D Eyre
-          <br/>
-          <a href='mailto:mason.deyre@gmail.com' style={{color: 'white'}}>
-            -mason.deyre@gmail.com-
+          <a href='/about'>
+            <b style={{color: 'white'}}>-About-</b>
           </a>
           <br/>
-          <a href='http://www.masoneyre.com' style={{color: 'white'}}>
+          © 2020 Website Created by Mason Eyre
+          <br/>
+          <a href='mailto:mason.eyre@icloud.com' style={{color: 'white'}}>
+            -mason.eyre@icloud.com-
+          </a>
+          <br/>
+          <a href='https://www.masoneyre.com' target='_blank' rel='noreferrer' style={{color: 'white'}}>
             www.masoneyre.com
           </a>
         </i>
