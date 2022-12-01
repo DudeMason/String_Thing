@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
+import {Link, Route, Switch} from 'react-router-dom';
 import Home from './components/shared/Home';
 import Contact from './components/shared/Contact';
 import About from './components/shared/About';
@@ -23,14 +23,14 @@ const App = () => (
     </Switch>
     <div className='watermark'>
       <p align='center' style={{opacity: .5, fontSize: 17, color: 'white'}}>
-        <a href='/' style={{color: 'white'}}>
+        <Link to='/' style={{color: 'white'}}>
           <u>It's a String Thing</u>
-        </a>
+        </Link>
         <br/>
         <i style={{fontSize: 12}}>
-          <a href='/about'>
+          <Link to='/about'>
             <b style={{color: 'white'}}>-About-</b>
-          </a>
+          </Link>
           <br/>
           © 2020 Website Created by Mason Eyre
           <br/>
@@ -38,7 +38,7 @@ const App = () => (
             -mason.eyre@icloud.com-
           </a>
           <br/>
-          <a href='https://www.masoneyre.com' target='_blank' rel='noreferrer' style={{color: 'white'}}>
+          <a href='https://www.masoneyre.com' target='_blank' rel='noopener noreferrer' style={{color: 'white'}}>
             www.masoneyre.com
           </a>
         </i>

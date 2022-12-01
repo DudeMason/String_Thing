@@ -1,5 +1,6 @@
 import React from 'react'
 import { Menu } from 'semantic-ui-react'
+import {Link} from 'react-router-dom';
 
 const PhotoNav = () => (
   <>
@@ -9,13 +10,13 @@ const PhotoNav = () => (
         name='Photos'
         active={true}
       />
-      <a href='/videos'>
+      <Link to='/videos'>
         <Menu.Item
           icon='video'
           name='Videos'
           active={false}
         />
-      </a>
+      </Link>
     </Menu>
   </>
   )

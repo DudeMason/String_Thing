@@ -12,14 +12,16 @@ const Contact = () => (
     </div>
     <Segment inverted compact style={{marginTop: 100, marginBottom: 100, padding: 50}}>
       <h2>
-        <u>Contact</u>
+        <strong>Contact</strong>
       </h2>
       <br/>
       <p align='center' style={{fontSize: 17}}>
-        Rachel Harris -- Owner
+        Rachel Harris — Owner
       </p>
       <p>
-        <a href='mailto:racheljh5514@gmail.com' target='_blank' rel="noopener noreferrer"><u>racheljh5514@gmail.com</u></a>
+        <a href='mailto:racheljh5514@gmail.com' target='_blank' rel="noopener noreferrer">
+            <u>racheljh5514@gmail.com</u>
+        </a>
         <br/>
         <br/>
         <a href='https://www.facebook.com/cellobabe18' target='_blank' rel="noopener noreferrer">

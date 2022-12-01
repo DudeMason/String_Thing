@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import {Menu, Icon} from 'semantic-ui-react';
 
 const Navbar = () => (
@@ -6,28 +7,28 @@ const Navbar = () => (
   <div>
     <Menu stackable inverted>
       <Menu.Menu position='left'>
-        <a href='/'>
+        <Link to='/'>
           <Menu.Item>
             <Icon name='home' />
           </Menu.Item>
-        </a>
+        </Link>
       </Menu.Menu>
       <Menu.Menu position='right'>
-        <a href='/about'>
+        <Link to='/about'>
           <Menu.Item>
             About
           </Menu.Item>
-        </a>
-        <a href='/photos'>
+        </Link>
+        <Link to='/photos'>
           <Menu.Item>
             Media
           </Menu.Item>
-        </a>
-        <a href='/contact'>
+        </Link>
+        <Link to='/contact'>
           <Menu.Item>
             Contact
           </Menu.Item>
-        </a>
+        </Link>
       </Menu.Menu>
     </Menu>
   </div>
