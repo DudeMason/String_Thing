@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const PhotoNav = () => (
   <>
-    <Menu attached='top' tabular inverted stackable>
+    <Menu attached='top' inverted stackable>
       <Menu.Item
         icon='camera'
         name='Photos'

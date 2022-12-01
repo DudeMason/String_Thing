@@ -1,13 +1,12 @@
 .landing {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./components/shared/media/images/SymphonyHall.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./components/shared/media/images/SymphonyHall.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
 .div {
-  height: 102vh;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./components/shared/media/images/2019Recital.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./components/shared/media/images/2019Recital.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,4 +45,8 @@
   margin-top: -10px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.ui.menu {
+  border-radius: 0 !important;
 }

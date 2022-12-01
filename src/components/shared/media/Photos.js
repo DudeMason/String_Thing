@@ -3,7 +3,6 @@ import PhotoNav from './PhotoNav';
 import PicViewer from './PicViewer';
 
 const Photos = () => (
-
   <div className='div' align='center'>
     <br/>
     <div>

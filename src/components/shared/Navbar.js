@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import {Menu, Icon} from 'semantic-ui-react';
 
 const Navbar = () => (
-
   <div>
     <Menu stackable inverted>
       <Menu.Menu position='left'>

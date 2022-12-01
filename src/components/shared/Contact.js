@@ -2,7 +2,6 @@ import React from 'react';
 import {Segment, Icon} from 'semantic-ui-react'
 
 const Contact = () => (
-
   <div className='div' align='center'>
     <br/>
     <div>

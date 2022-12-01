@@ -2,7 +2,6 @@ import React from 'react';
 import {Segment} from 'semantic-ui-react';
 
 const Home = () => (
-
   <div className='landing' align='center'>
     <br/>
     <Segment inverted compact align='center' style={{opacity: .85, padding: 65}}>

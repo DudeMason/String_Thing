@@ -2,7 +2,6 @@ import React from 'react';
 import {Segment, Container} from 'semantic-ui-react';
 
 const About = () => (
-
   <div className='div' align='center'>
     <br/>
     <div>

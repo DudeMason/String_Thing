@@ -10,7 +10,6 @@ import NoMatch from './components/shared/NoMatch';
 import Navbar from './components/shared/Navbar';
 
 const App = () => (
-
   <div>
     <Navbar />
     <Switch>

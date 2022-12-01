@@ -4,7 +4,6 @@ import CelloChristmas from './images/CelloChristmas.mp4';
 import Beginners from './images/Beginners.mp4';
 
 const Videos = () => (
-
   <div className='div'>
     <br/>
     <div align='center'>
